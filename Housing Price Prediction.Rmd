@@ -1,0 +1,30 @@
+---
+title: "Housing price prediction"
+author: "DSB_EC_G04"
+date: "6/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Description of the business problem:
+
+Housing expense is usually a major share of the income of individuals. In the last two decades, housing prices have increased dramatically in major American and European cities^[See https://www.visualcapitalist.com/20-years-of-home-price-changes-in-every-u-s-city/ and https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Housing_price_statistics_-_house_price_index], making it harder for individuals to afford rent and buy properties. 
+
+Housing prices have become a major issue in modern societies and therefore, ensuring a fair pricing is critical. Besides, real state companies require reliable predictive models in order to ensure their profitability when selling properties. Additionally, local Governments in many countries impose taxes based on the value of the property, making its valuation an essential metric to have. 
+
+The housing market in large cities is thick and active. Millions of transactions are executed every year and are recorded in real estate websites and public agencies. However, this data is not being exploited to the benefit of individuals and companies.
+
+
+# Business solution process:
+We will develop a model for predicting housing prices. Using a data set of housing prices in Boston, we will train a model that will feed from past transactions considering the attributes of each property. 
+
+# Data
+The dataset contains information of transactions of the real estate market in Boston, United States. It includes X relevant attributes and X observations.
+
+
+# Data dictionary
+
+
